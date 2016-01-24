@@ -26,26 +26,28 @@ set shiftwidth=2                  "How many columns text is indented with the re
 set softtabstop=2                 "Duh?
 set tabstop=2                     "How many columns a tab counts for
 
-set history=1000                  "Keep 150 lines of command line history
+set history=10000                 "Keep 150 lines of command line history
 set ruler                         "Show the cursor position all the time
 set showcmd                       "Display incomplete commands
 set incsearch                     "Do incremental searching
 set ignorecase                    "Make searches case-insensitive.
 set smartcase                     "Unless there is a capital letter
 
-colorscheme codeschool
+colorscheme molokai               "codeschool
 
 let mapleader=","
 
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
-"set colorcolumn=0              "Disable max chars column
+set colorcolumn=80              "Disable max chars column
 
 filetype on                     "Enable filetype detection
 filetype indent on              "Enable filetype-specific indenting
 filetype plugin on              "Enable filetype-specific plugins
 filetype indent plugin on
 
+set encoding=utf8
+set paste
 
 set omnifunc=syntaxcomplete#Complete
 
