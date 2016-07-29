@@ -22,9 +22,9 @@ set visualbell                    "No sounds
 set autoread                      "Reload files changed outside vim
 
 set expandtab                     "Use spaces for tab at insert mode
-set shiftwidth=2                  "How many columns text is indented with the reindent operations
-set softtabstop=2                 "Duh?
-set tabstop=2                     "How many columns a tab counts for
+set shiftwidth=4                  "How many columns text is indented with the reindent operations
+set softtabstop=4                 "Duh?
+set tabstop=4                     "How many columns a tab counts for
 
 set history=10000                 "Keep 150 lines of command line history
 set ruler                         "Show the cursor position all the time
