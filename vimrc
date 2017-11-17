@@ -32,6 +32,7 @@ set showcmd                       "Display incomplete commands
 set incsearch                     "Do incremental searching
 set ignorecase                    "Make searches case-insensitive.
 set smartcase                     "Unless there is a capital letter
+set hlsearch                      "Highlight each search match
 
 colorscheme molokai               "codeschool
 
